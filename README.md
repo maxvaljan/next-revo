@@ -53,7 +53,7 @@ A modern, real-time event ticketing platform built with Next.js 14, Convex, Cler
 ### Prerequisites
 
 - Node.js 18+
-- npm/yarn
+- bun
 - Stripe Account
 - Clerk Account
 - Convex Account
@@ -78,10 +78,10 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 git clone https://github.com/sonnysangha/ticket-marketplace-saas-nextjs15-convex-clerk-stripe-connect
 
 # Install dependencies
-npm install
+bun install
 
 # Start the development server
-npm run dev
+bun run dev
 
 # In a separate terminal, start Convex
 npx convex dev
@@ -100,7 +100,7 @@ npx convex dev
 2. Create a new project
 3. Install the Convex CLI:
    ```bash
-   npm install convex
+   bun add convex
    ```
 4. Initialize Convex in your project:
    ```bash
